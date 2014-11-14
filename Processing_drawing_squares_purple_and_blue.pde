@@ -78,7 +78,7 @@ void setup() {
     }  //end first loop of colours
   }
   
-  save(hour()+""+minute()+""+second()+"__"+day()+""+month()+""+year()+".png"); //save the image as a PNG with a unique timestamped name
+  save("/images/"+hour()+""+minute()+""+second()+"__"+day()+""+month()+""+year()+".png"); //save the image as a PNG with a unique timestamped name
   
 }
 
